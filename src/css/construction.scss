@@ -1,0 +1,28 @@
+.construction {
+  height: 100vh;
+  width: 100vw;
+  background-color: $light-green;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Josefin Slab', serif;
+  text-align: center;
+}
+
+.construction-title {
+  font-size: 60px;
+  border-bottom: 1px solid $light-gray;
+  margin-bottom: 40px;
+}
+
+.construction-subtitle {
+  font-size: 40px;
+  margin-bottom: 40px;
+}
+
+.construction-disclaimer {
+  padding-top: 20px;
+  font-size: 20px;
+}
