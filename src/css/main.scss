@@ -1,0 +1,39 @@
+@import 'scaffolding';
+@import 'variables';
+@import 'header';
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Josefin Slab', serif;
+}
+
+.content {
+  flex: 1;
+  background-color: $light-gray;
+}
+
+.content-intro {
+  background-color: $lightest-gray;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-size: 20px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  height: 100px;
+  background-color: $green;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
