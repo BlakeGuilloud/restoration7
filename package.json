@@ -23,6 +23,7 @@
   },
   "scripts": {
     "start": "webpack-dev-server",
-    "build": "webpack -p"
+    "build": "webpack -p",
+    "deploy": "yarn build && aws s3 sync dist s3://restoration7.com"
   }
 }

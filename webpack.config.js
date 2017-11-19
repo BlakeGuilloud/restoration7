@@ -50,7 +50,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: 'src/construction.html',
+      template: 'src/index.html',
     }),
     new CleanWebpackPlugin(['dist']),
     extractPlugin
