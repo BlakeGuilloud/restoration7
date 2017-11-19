@@ -8,23 +8,40 @@ $header-height: 400px;
   background-image: url('../images/header.jpeg');
   overflow: hidden;
   z-index: -10;
-  font-size: 60px;
-  color: white;
+  font-size: 80px;
+  color: $gray-lightest;
 }
 
 .header-overlay {
   background-color: black;
   height: 100%;
-  opacity: 0.3;
+  opacity: 0.2;
   z-index: -5;
 }
 
 .header-text {
-  position: absolute;
   width: 100%;
+  position: absolute;
   height: $header-height;
   top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+}
+
+
+@media (max-width: 900px) {
+  .header {
+    font-size: 40px;
+    margin: 0;
+    height: $header-height - 100px;
+  }
+
+  .header-text {
+    width: 90%;
+    height: $header-height - 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }

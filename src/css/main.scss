@@ -3,6 +3,7 @@
 
 @import 'construction';
 @import 'header';
+@import 'content';
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 
 .wrapper {
@@ -12,30 +13,14 @@
   font-family: 'Josefin Slab', serif;
 }
 
-.content {
-  flex: 1;
-  background-color: $light-gray;
-}
-
-.content-intro {
-  background-color: $lightest-gray;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 100px;
-  padding-right: 100px;
-  font-size: 20px;
-  height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .footer {
-  height: 100px;
+  height: 60px;
   background-color: $green;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
