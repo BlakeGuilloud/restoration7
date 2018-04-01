@@ -1,5 +1,4 @@
-import React from 'react'
-import Link from 'gatsby-link'
+import React from 'react';
 
 import { Logo, LogoWrapper, Disclaimer } from '../components/Styled/Content';
 
@@ -10,6 +9,6 @@ const IndexPage = () => (
       Website under construction.
     </Disclaimer>
   </LogoWrapper>
-)
+);
 
-export default IndexPage
+export default IndexPage;
