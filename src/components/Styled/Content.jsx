@@ -2,8 +2,6 @@ import styled from 'styled-components';
 
 import { lightestGray } from './variables';
 
-import { load } from './keyframes';
-
 export const LogoWrapper = styled.div`
   width: 100%;
   height: 100vh;
@@ -12,9 +10,13 @@ export const LogoWrapper = styled.div`
   justify-content: space-between;
   align-items: center;
   background-color: ${lightestGray};
-  animation: ${load} 1s;
-  animation-fill-mode: forwards;
 `;
+
+// @blakeguilloud keyframes causing second loading for some reason..
+// import { load } from './keyframes';
+/* opacity: 0; */
+/* animation: ${load} 3s; */
+/* animation-fill-mode: forwards; */
 
 export const Logo = styled.img.attrs({
   src: 'static/logo.png',
